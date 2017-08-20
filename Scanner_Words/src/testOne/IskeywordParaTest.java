@@ -16,7 +16,7 @@ public class IskeywordParaTest {
 							  "break","continue","switch","case",
 							  "default","float","double","void",
 							  "struct","static","do","short"};
-	private static String errors[]={"hello","retun","test","whie"};
+	private static String errors[]={"hello","return","test","whie"};
 	private static int expected[]={0,1,2,3,4,5,6,7,8,9,10,11,
 							12,13,14,15,16,17,18,19,20};
 	private static Analysis analysis = new Analysis();
